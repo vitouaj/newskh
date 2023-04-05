@@ -1,11 +1,11 @@
 "use client";
 
-import { Navbar, Footer } from "./utils/navbar";
+import { Navbar, Footer } from "../utils/navbar";
 import React from "react";
-import NewsCard from "./utils/newsCard";
+import NewsCard from "../utils/newsCard";
 import axios from "axios";
 
-import fetchNews from "./helper/fetch";
+import fetchNews from "../helper/fetch";
 
 export default function Home() {
   const [data, setData] = React.useState([]);
